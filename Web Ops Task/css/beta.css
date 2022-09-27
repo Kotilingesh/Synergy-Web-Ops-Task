@@ -1,0 +1,134 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+.clear {
+   clear: both;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7; /* line-height is unit-less */
+    font-size: 100%;
+    font-weight: 600;
+    background-color: silver;
+}
+
+#container{
+    width: 98%;
+    margin-left: 1%;
+}
+
+
+.heading{
+    font-size: 50px;
+    line-height: 0.9;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+#Header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sub{
+    display: inline-block;
+    font-size: 16.5px;
+    margin-top: 0px;
+}
+
+.body{
+ background-color: white;
+ font-size: 16px;
+ width: 100%;
+ padding: 2%;
+ border-radius: 2px;
+ border-bottom: 2px solid silver;
+ margin-bottom: 1%;
+ text-align: center;
+}
+
+.sidebar{
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: -4px 4px -4px 4px grey;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+
+
+.footer{
+   width:95%;
+   text-align: center;
+   margin-top: 10%;
+}
+
+.color{
+    color:tomato;
+    text-decoration: none;
+}
+
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sm{
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+.Quote{
+    font-style: italic;
+    position: relative;
+    width: 50%;
+    margin: auto;
+    border-left: 7px solid silver;
+    padding-left: 2%;
+    margin-bottom: 10%;
+}
+
+.Round_img{
+    border-radius: 50%;
+}
+.border{
+    border-bottom: 2px solid silver;
+}
+.silver{
+    color:silver;
+    margin-bottom: 75px;
+    font-size: 15px;
+}
+
+.images{
+    width: 97%
+}
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+
